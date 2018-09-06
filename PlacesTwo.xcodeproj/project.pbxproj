@@ -55,13 +55,37 @@
 			isa = PBXGroup;
 			children = (
 				1180DDB021418A9F0089B7BA /* AppDelegate.swift */,
-				1180DDB221418A9F0089B7BA /* ViewController.swift */,
+				1180DDC321418C980089B7BA /* ViewControllers */,
+				1180DDC221418C8E0089B7BA /* Storyboard */,
+				1180DDC421418CAD0089B7BA /* Resources */,
+			);
+			path = PlacesTwo;
+			sourceTree = "<group>";
+		};
+		1180DDC221418C8E0089B7BA /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
 				1180DDB421418A9F0089B7BA /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		1180DDC321418C980089B7BA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1180DDB221418A9F0089B7BA /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1180DDC421418CAD0089B7BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				1180DDB721418AA10089B7BA /* Assets.xcassets */,
 				1180DDB921418AA10089B7BA /* LaunchScreen.storyboard */,
 				1180DDBC21418AA10089B7BA /* Info.plist */,
 			);
-			path = PlacesTwo;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
