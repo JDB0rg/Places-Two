@@ -14,6 +14,7 @@
 		1180DDBB21418AA10089B7BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1180DDB921418AA10089B7BA /* LaunchScreen.storyboard */; };
 		1180DDC621418FF80089B7BA /* MapView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1180DDC521418FF80089B7BA /* MapView.storyboard */; };
 		1180DDC8214191010089B7BA /* PlacesTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1180DDC7214191010089B7BA /* PlacesTable.storyboard */; };
+		1180DDCA214195520089B7BA /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180DDC9214195520089B7BA /* Place.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1180DDBC21418AA10089B7BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1180DDC521418FF80089B7BA /* MapView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapView.storyboard; sourceTree = "<group>"; };
 		1180DDC7214191010089B7BA /* PlacesTable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlacesTable.storyboard; sourceTree = "<group>"; };
+		1180DDC9214195520089B7BA /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		1180DDC321418C980089B7BA /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				1180DDC9214195520089B7BA /* Place.swift */,
 				1180DDB221418A9F0089B7BA /* ViewController.swift */,
 			);
 			path = ViewControllers;
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1180DDCA214195520089B7BA /* Place.swift in Sources */,
 				1180DDB321418A9F0089B7BA /* ViewController.swift in Sources */,
 				1180DDB121418A9F0089B7BA /* AppDelegate.swift in Sources */,
 			);
