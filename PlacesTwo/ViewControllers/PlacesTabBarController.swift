@@ -10,15 +10,20 @@ import UIKit
 
 class PlacesTabBarController: UITabBarController {
 
+    let placeController = PlaceController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        for childVC in childViewControllers {
+            
+            if let childVC = childVC as? PlacesPresenter {
+                childVC.placeController = placeController
+            }
+            
+        }
 
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
 }

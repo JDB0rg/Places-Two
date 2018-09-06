@@ -19,6 +19,8 @@
 		1180DDD02141977B0089B7BA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180DDCF2141977B0089B7BA /* MapViewController.swift */; };
 		1180DDD2214197960089B7BA /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180DDD1214197960089B7BA /* PlacesTableViewController.swift */; };
 		1180DDD5214198050089B7BA /* VisitedPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180DDD4214198050089B7BA /* VisitedPlacesViewController.swift */; };
+		1180DDD72141994C0089B7BA /* PlaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180DDD62141994C0089B7BA /* PlaceController.swift */; };
+		1180DDD921419CF90089B7BA /* PlacesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1180DDD821419CF90089B7BA /* PlacesPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		1180DDCF2141977B0089B7BA /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		1180DDD1214197960089B7BA /* PlacesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewController.swift; sourceTree = "<group>"; };
 		1180DDD4214198050089B7BA /* VisitedPlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitedPlacesViewController.swift; sourceTree = "<group>"; };
+		1180DDD62141994C0089B7BA /* PlaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceController.swift; sourceTree = "<group>"; };
+		1180DDD821419CF90089B7BA /* PlacesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 		1180DDAF21418A9F0089B7BA /* PlacesTwo */ = {
 			isa = PBXGroup;
 			children = (
+				1180DDDA21419D070089B7BA /* Protocol */,
 				1180DDD3214197CE0089B7BA /* Model */,
 				1180DDB021418A9F0089B7BA /* AppDelegate.swift */,
 				1180DDC321418C980089B7BA /* ViewControllers */,
@@ -113,8 +118,17 @@
 			isa = PBXGroup;
 			children = (
 				1180DDC9214195520089B7BA /* Place.swift */,
+				1180DDD62141994C0089B7BA /* PlaceController.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		1180DDDA21419D070089B7BA /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1180DDD821419CF90089B7BA /* PlacesPresenter.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +205,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1180DDCA214195520089B7BA /* Place.swift in Sources */,
+				1180DDD921419CF90089B7BA /* PlacesPresenter.swift in Sources */,
+				1180DDD72141994C0089B7BA /* PlaceController.swift in Sources */,
 				1180DDB121418A9F0089B7BA /* AppDelegate.swift in Sources */,
 				1180DDCC214197050089B7BA /* PlacesTabBarController.swift in Sources */,
 				1180DDD02141977B0089B7BA /* MapViewController.swift in Sources */,
