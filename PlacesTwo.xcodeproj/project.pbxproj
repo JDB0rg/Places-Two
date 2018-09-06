@@ -12,6 +12,8 @@
 		1180DDB621418A9F0089B7BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1180DDB421418A9F0089B7BA /* Main.storyboard */; };
 		1180DDB821418AA10089B7BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1180DDB721418AA10089B7BA /* Assets.xcassets */; };
 		1180DDBB21418AA10089B7BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1180DDB921418AA10089B7BA /* LaunchScreen.storyboard */; };
+		1180DDC621418FF80089B7BA /* MapView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1180DDC521418FF80089B7BA /* MapView.storyboard */; };
+		1180DDC8214191010089B7BA /* PlacesTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1180DDC7214191010089B7BA /* PlacesTable.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1180DDB721418AA10089B7BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1180DDBA21418AA10089B7BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1180DDBC21418AA10089B7BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1180DDC521418FF80089B7BA /* MapView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapView.storyboard; sourceTree = "<group>"; };
+		1180DDC7214191010089B7BA /* PlacesTable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlacesTable.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				1180DDB421418A9F0089B7BA /* Main.storyboard */,
+				1180DDC521418FF80089B7BA /* MapView.storyboard */,
+				1180DDC7214191010089B7BA /* PlacesTable.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -147,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1180DDBB21418AA10089B7BA /* LaunchScreen.storyboard in Resources */,
+				1180DDC8214191010089B7BA /* PlacesTable.storyboard in Resources */,
 				1180DDB821418AA10089B7BA /* Assets.xcassets in Resources */,
+				1180DDC621418FF80089B7BA /* MapView.storyboard in Resources */,
 				1180DDB621418A9F0089B7BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
