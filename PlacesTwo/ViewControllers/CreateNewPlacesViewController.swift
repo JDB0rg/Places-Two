@@ -14,10 +14,10 @@ class CreateNewPlacesViewController: UIViewController, PlacesPresenter {
     @IBAction func savePlacesButtonTapped(_ sender: Any) {
         
         guard let name = nameTextField.text,
-            let latitude = latitudeTextField.text,
-            let latitude = Double(latitudeString)
-            let longitude = longitudeTextField.text,
-            let longitude = Double(longitudeString)
+            let latitudeString = latitudeTextField.text,
+            let latitude = Double(latitudeString),
+            let longitudeString = longitudeTextField.text,
+            let longitude = Double(longitudeString) else { return }
         
         placeController?.createPlace(with: name, latitude: latitude, longitude: longitude)
     }
