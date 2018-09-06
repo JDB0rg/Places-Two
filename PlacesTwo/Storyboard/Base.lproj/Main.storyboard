@@ -14,7 +14,7 @@
         <!--Add Location-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PlacesTwo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CreateNewPlacesViewController" customModule="PlacesTwo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -87,7 +87,7 @@
         <!--Places-->
         <scene sceneID="523-2k-jWg">
             <objects>
-                <viewController id="gia-tS-u9n" sceneMemberID="viewController">
+                <viewController id="gia-tS-u9n" customClass="VisitedPlacesViewController" customModule="PlacesTwo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yh1-wK-fEy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -116,10 +116,10 @@
             </objects>
             <point key="canvasLocation" x="137" y="839"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Places Tab Bar Controller-->
         <scene sceneID="1LO-pa-G4q">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="gvL-9y-SfL" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="gvL-9y-SfL" customClass="PlacesTabBarController" customModule="PlacesTwo" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DRt-s4-G15">
                         <autoresizingMask key="autoresizingMask"/>
