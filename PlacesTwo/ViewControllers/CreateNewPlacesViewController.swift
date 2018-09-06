@@ -10,6 +10,22 @@ import UIKit
 
 class CreateNewPlacesViewController: UIViewController, PlacesPresenter {
 
+    
+    @IBAction func savePlacesButtonTapped(_ sender: Any) {
+        
+        guard let name = nameTextField.text,
+            let latitude = latitudeTextField.text,
+            let latitude = Double(latitudeString)
+            let longitude = longitudeTextField.text,
+            let longitude = Double(longitudeString)
+        
+        placeController?.createPlace(with: name, latitude: latitude, longitude: longitude)
+    }
+    
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var latitudeTextField: UITextField!
+    @IBOutlet weak var longitudeTextField: UITextField!
+    
     var placeController: PlaceController?
     
     override func viewDidLoad() {
@@ -17,15 +33,5 @@ class CreateNewPlacesViewController: UIViewController, PlacesPresenter {
 
         // Do any additional setup after loading the view.
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
